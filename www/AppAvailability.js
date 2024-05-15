@@ -1,4 +1,4 @@
-/**
+m/**
  * Removes the trailing and leading whitespace on an URL scheme and verifies its
  * not empty.
  * 
@@ -9,6 +9,7 @@
  * undefined when it was empty.
  */
 function checkUrlScheme(urlScheme, errorCallback) {
+    debugger;
     var trimmedUrlScheme = (urlScheme||"").trim();
     if (!trimmedUrlScheme) {
         errorCallback("empty urlScheme(\"" + urlScheme + "\") used.");
