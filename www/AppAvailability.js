@@ -1,4 +1,4 @@
-m/**
+/**
  * Removes the trailing and leading whitespace on an URL scheme and verifies its
  * not empty.
  * 
