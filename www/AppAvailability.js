@@ -17,6 +17,8 @@ function checkUrlScheme(urlScheme, errorCallback) {
     return trimmedUrlScheme;
 }
 
+function errorCallback(err){console.log(err)};
+
 var appAvailability = {
 
     check: function(urlScheme, successCallback, errorCallback) {
