@@ -9,7 +9,6 @@
  * undefined when it was empty.
  */
 function checkUrlScheme(urlScheme, errorCallback) {
-    debugger;
     var trimmedUrlScheme = (urlScheme||"").trim();
     if (!trimmedUrlScheme) {
         errorCallback("empty urlScheme(\"" + urlScheme + "\") used.");
